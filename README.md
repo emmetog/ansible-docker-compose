@@ -10,17 +10,23 @@ Role Variables
 docker_compose_version: "1.7.1"
 ```
 
-Example Playbook
-----------------
+Usage
+-----
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+First install the role from ansible galaxy:
+```
+$ ansible-galaxy install emmetog.docker-compose
+```
 
-    - hosts: servers
-      roles:
-         - {
-            role: emmetog.docker-compose,
-            docker_compose_version: "1.7.1"
-         }
+Then use the role in a playbook as follows:
+```yml
+- hosts: servers
+  roles:
+     - {
+        role: emmetog.docker-compose,
+        docker_compose_version: "1.7.1"
+     }
+```
 
 License
 -------
@@ -34,4 +40,4 @@ Made with love by Emmet O'Grady.
 
 I am the founder of [NimbleCI](https://nimbleci.com) which builds Docker containers for feature branch workflow projects in Github.
 
-I blog on my [personal blog](http://blog.emmetogrady.com) and on the [NimbleCI blog](http://blog.nimbleci.com).
+I blog on my [personal blog](http://blog.emmetogrady.com) and about Docker related things on the [NimbleCI blog](http://blog.nimbleci.com).
