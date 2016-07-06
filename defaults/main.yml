@@ -1,0 +1,4 @@
+---
+
+# Override this variable to change the version of docker-compose that is installed.
+docker_compose_version: "1.7.1"
