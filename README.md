@@ -34,4 +34,4 @@ Made with love by Emmet O'Grady.
 
 I am the founder of [NimbleCI](https://nimbleci.com) which builds Docker containers for feature branch workflow projects in Github.
 
-I blog on my [personal blog](blog.emmetogrady.com) and on the [NimbleCI blog](blog.nimbleci.com).
+I blog on my [personal blog](http://blog.emmetogrady.com) and on the [NimbleCI blog](http://blog.nimbleci.com).
